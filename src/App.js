@@ -1,6 +1,8 @@
 import React, { Component } from "react";
-import CurvedDiv from "./Components/CurvedDiv/CurvedDiv";
 import NavBar from "./Components/NavBar/NavBar";
+import CurvedDiv from "./Components/CurvedDiv/CurvedDiv";
+// import Container from "./Components/Container/Container";
+import Footer from "./Components/Footer/Footer";
 // import logo from "./logo.svg";
 // import logo from "./images/hypnosis.png";
 import "./App.css";
@@ -33,6 +35,7 @@ class App extends Component {
           <NavBar />
           <CurvedDiv />
           <br />
+          <Footer />
         </div>
       </>
     );
