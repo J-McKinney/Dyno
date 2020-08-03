@@ -4,16 +4,22 @@
   min-height: auto;
   justify-content: center;
   background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .techImage {
-  background-image: url("../../images/tech.jpg");
+  background-image: url("../../images/tech1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   color: #fff;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .container {
@@ -25,10 +31,34 @@
 }
 
 .button {
+  outline: none;
+  color: #fff;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+  outline: none;
   height: 100px;
   width: 100px;
-  border-color: #ffffff;
+  border: none;
+  cursor: pointer;
   border-radius: 50%;
-  background: linear-gradient(315deg, #e6e6e6, #ffffff);
-  box-shadow: -30px -30px 60px #d9d9d9, 30px 30px 60px #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000000;
+  box-shadow: 3px 3px 30px #6d6d6d, -3px -3px 30px #6d6d6d;
+  transition: 0.1s;
+}
+
+.button:hover {
+  outline: none;
+  background: #8b8b8b;
+}
+
+.button:active {
+  outline: none;
+  background: #ffffff;
+}
+
+.button:focus {
+  outline: 0 !important;
 }
