@@ -45,20 +45,20 @@
   align-items: center;
   justify-content: center;
   background: #000000;
-  box-shadow: 3px 3px 30px #6d6d6d, -3px -3px 30px #6d6d6d;
+  box-shadow: 3px 3px 30px #094fa2, -3px -3px 30px #094fa2;
   transition: 0.3s;
 }
 
 .button:hover {
   outline: none;
   background: #ff000000;
-  box-shadow: 3px 3px 30px #8b0000, -3px -3px 30px #8b0000;
+  box-shadow: 3px 3px 30px #376c54, -3px -3px 30px #376c54;
 }
 
 .button:active {
   outline: none;
   background: #ff000000;
-  box-shadow: 3px 3px 30px #001aff, -3px -3px 30px #001aff;
+  box-shadow: 3px 3px 30px #295664, -3px -3px 30px #295664;
   transition: 0.1s;
 }
 
