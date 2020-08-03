@@ -34,7 +34,6 @@ class App extends Component {
           </header>*/}
           <NavBar />
           <CurvedDiv />
-          <br />
           <Footer />
         </div>
       </>
