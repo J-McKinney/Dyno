@@ -1,11 +1,7 @@
 import React, { Component } from "react";
-import EntryPoint from "./Components/EntryPoint/EntryPoint";
-// import NavBar from "./Components/NavBar/NavBar";
-// import CurvedDiv from "./Components/CurvedDiv/CurvedDiv";
-// import Container from "./Components/Container/Container";
-// import Footer from "./Components/Footer/Footer";
-// import logo from "./logo.svg";
-// import logo from "./images/hypnosis.png";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import EntryPoint from "./Pages/EntryPoint/EntryPoint";
+import Error404 from "./Pages/Error/Error";
 import "./App.css";
 
 class App extends Component {
@@ -18,8 +14,14 @@ class App extends Component {
   render() {
     return (
       <>
-        <div className="App">
-          {/*<header className="App-header">
+        <Router>
+          <Switch>
+            <Route exact path="/" component={EntryPoint} />
+            <Route exact path="*" component={Error404} />
+          </Switch>
+        </Router>
+        {/*<div className="App">
+          <header className="App-header">
             <img src={logo} className="App-logo" alt="logo" />
             <p>
               Edit <code>src/App.js</code> and save to reload.
@@ -32,9 +34,8 @@ class App extends Component {
             >
               Learn React
             </a>
-          </header>*/}
-          <EntryPoint />
-        </div>
+          </header>
+        </div>*/}
       </>
     );
   }

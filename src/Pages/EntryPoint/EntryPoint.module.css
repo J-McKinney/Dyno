@@ -53,12 +53,14 @@
   outline: none;
   background: #ff000000;
   box-shadow: 3px 3px 30px #376c54, -3px -3px 30px #376c54;
+  /* box-shadow: 3px 3px 30px #c8ded5, -3px -3px 30px #c8ded5; */
 }
 
 .button:active {
   outline: none;
   background: #ff000000;
-  box-shadow: 3px 3px 30px #295664, -3px -3px 30px #295664;
+  /* box-shadow: 3px 3px 30px #295664, -3px -3px 30px #295664; */
+  box-shadow: 3px 3px 30px #c8ded5, -3px -3px 30px #c8ded5;
   transition: 0.1s;
 }
 
