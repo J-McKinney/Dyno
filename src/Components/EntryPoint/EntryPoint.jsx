@@ -10,7 +10,7 @@ class EntryPoint extends Component {
           <div className={EntryStyle.techImage}>
             <Container className={EntryStyle.container}>
               <button className={EntryStyle.button}>
-                <span>Enter</span>
+                <div>Enter</div>
               </button>
             </Container>
           </div>
