@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import CurvedDiv from "./Components/CurvedDiv/CurvedDiv";
+import NavBar from "./Components/NavBar/NavBar";
 // import logo from "./logo.svg";
 // import logo from "./images/hypnosis.png";
 import "./App.css";
@@ -29,6 +30,7 @@ class App extends Component {
               Learn React
             </a>
           </header>*/}
+          <NavBar />
           <CurvedDiv />
           <br />
         </div>
