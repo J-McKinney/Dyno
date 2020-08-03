@@ -1,0 +1,10 @@
+.wrapper {
+  /* background-color: black; */
+  background-image: linear-gradient(to bottom right, #ff0000, #ffff00);
+  text-align: center;
+  width: 100%;
+  min-height: auto;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
