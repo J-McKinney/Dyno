@@ -17,6 +17,26 @@ class Landing extends Component {
             </Row>
           </Container>
         </div>
+        <br />
+        <div className={LandingStyle.openWrapper}>
+          <Container className={LandingStyle.openContainer}>
+            openContainer
+            <Row className={LandingStyle.openRow}>
+              openRow
+              <Col className={LandingStyle.openCol}>openCol</Col>
+            </Row>
+          </Container>
+        </div>
+        <br />
+        <div className={LandingStyle.closedWrapper}>
+          <Container className={LandingStyle.closedContainer}>
+          closedContainer
+            <Row className={LandingStyle.closedRow}>
+            closedRow
+              <Col className={LandingStyle.closedCol}>closedCol</Col>
+            </Row>
+          </Container>
+        </div>
       </>
     );
   }
