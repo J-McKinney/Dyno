@@ -1,11 +1,12 @@
 .App {
   text-align: center;
-  /* background-color: #282c34; */
+  background-color: #282c34;
 }
 
 .App-logo {
-  /* border-radius: 100px; */
+  border-radius: 200px;
   height: 40vmin;
+  width: 40vmin;
   pointer-events: none;
 }
 

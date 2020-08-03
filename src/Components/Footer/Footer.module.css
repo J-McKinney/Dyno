@@ -1,7 +1,7 @@
 .slider {
   width: 100%;
   padding-top: 1%;
-  padding-bottom: 5%;
+  /* padding-bottom: 5%; */
   justify-content: center;
   /*Slider Footer*/
   text-align: center;
@@ -10,6 +10,8 @@
   left: 0px;
   width: 100%;
   z-index: -1;
+  background-color: #ffffff;
+  margin-top: -2%;
 }
 
 ul {
@@ -29,4 +31,8 @@ h5 {
 a {
   color: #282c34;
   position: relative;
+}
+
+.CurvedDivBottom {
+  margin-top: -10%;
 }

@@ -1,8 +1,9 @@
 import React, { Component } from "react";
-import NavBar from "./Components/NavBar/NavBar";
-import CurvedDiv from "./Components/CurvedDiv/CurvedDiv";
+import EntryPoint from "./Components/EntryPoint/EntryPoint";
+// import NavBar from "./Components/NavBar/NavBar";
+// import CurvedDiv from "./Components/CurvedDiv/CurvedDiv";
 // import Container from "./Components/Container/Container";
-import Footer from "./Components/Footer/Footer";
+// import Footer from "./Components/Footer/Footer";
 // import logo from "./logo.svg";
 // import logo from "./images/hypnosis.png";
 import "./App.css";
@@ -11,7 +12,7 @@ class App extends Component {
   state = {};
 
   componentDidMount() {
-    console.log("Hello World");
+    // console.log("Hello World");
   }
 
   render() {
@@ -32,9 +33,7 @@ class App extends Component {
               Learn React
             </a>
           </header>*/}
-          <NavBar />
-          <CurvedDiv />
-          <Footer />
+          <EntryPoint />
         </div>
       </>
     );
