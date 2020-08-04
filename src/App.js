@@ -17,9 +17,9 @@ class App extends Component {
       <>
         <Router basename="/">
           <Switch>
-            <Route exact path="/" component={EntryPoint} />
+            <Route exact path="/Dyno" component={EntryPoint} />
             <Route path="/Landing" component={Landing} />
-            <Route path="*" component={Error404} />
+            <Route path="Error" component={Error404} />
           </Switch>
         </Router>
         {/*<div className="App">
