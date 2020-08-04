@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Dyno/precache-manifest.0dbfda1f07d24d510184934f7ac53520.js"
+  "/Dyno/precache-manifest.65a1ec2a6dc371f7b1e82d1a037b212a.js"
 );
 
 self.addEventListener('message', (event) => {
