@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import EntryPoint from "./Pages/EntryPoint/EntryPoint";
 import Landing from "./Pages/Landing/Landing";
+import About from "./Pages/About/About";
 import Error404 from "./Pages/Error/Error";
 import "./App.css";
 
@@ -19,6 +20,7 @@ class App extends Component {
           <Switch>
             <Route exact path="/Dyno" component={EntryPoint} />
             <Route path="/Landing" component={Landing} />
+            <Route path="/About" component={About} />
             <Route component={Error404} />
           </Switch>
         </Router>
