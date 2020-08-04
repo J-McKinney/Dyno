@@ -17,7 +17,7 @@ class App extends Component {
       <>
         <Router>
           <Switch>
-            <Route exact path="/Dyno" component={EntryPoint} />
+            <Route exact path="/Dyno/" component={EntryPoint} />
             <Route exact path="/Landing" component={Landing} />
             <Route exact path="*" component={Error404} />
           </Switch>
