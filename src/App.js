@@ -19,7 +19,7 @@ class App extends Component {
           <Switch>
             <Route exact path="/Dyno" component={EntryPoint} />
             <Route path="/Landing" component={Landing} />
-            <Route path="Error" component={Error404} />
+            <Route component={Error404} />
           </Switch>
         </Router>
         {/*<div className="App">
