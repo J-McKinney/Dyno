@@ -65,3 +65,10 @@
   background-color: #e4e4e4;
   box-shadow: 30px 30px 59px #afafaf, -30px -30px 59px #ffffff;
 }
+
+.myPic {
+  height: inherit;
+  width: inherit;
+  border-radius: 50px;
+  box-shadow: 30px 30px 59px #afafaf, -30px -30px 59px #ffffff;
+}

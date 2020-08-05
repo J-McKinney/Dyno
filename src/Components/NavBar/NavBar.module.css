@@ -16,7 +16,6 @@
 }
 
 .collapsingContainer {
-  /* margin-top: 4%; */
   width: 100%;
   justify-content: center;
   /*Slider NavBar*/
@@ -83,6 +82,7 @@
   float: right;
   padding: auto;
   margin: 2% 0 0 0;
+  border-radius: 13px;
 }
 
 #navBarButton:active {
