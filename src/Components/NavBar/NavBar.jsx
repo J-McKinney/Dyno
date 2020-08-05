@@ -29,7 +29,7 @@ class NavBar extends Component {
       <>
         <div className={NavBarStyle.wrapper}>
           <Container className={NavBarStyle.navBarContainer}>
-            <Row className={NavBarStyle.navBarRow}>
+            <Row className={NavBarStyle.row}>
               <Col className={NavBarStyle.col}>
                 <h3 className={NavBarStyle.h3}>Jesse McKinney</h3>
               </Col>
@@ -53,7 +53,7 @@ class NavBar extends Component {
           <Container className={NavBarStyle.collapsingContainer}>
             <Collapse in={this.state.open}>
               <div id="example-collapse-text" className={NavBarStyle.content}>
-                <Row className={NavBarStyle.row}>
+                <Row className={NavBarStyle.navBarRow}>
                   <Col className={NavBarStyle.col}>
                     <ul className={NavBarStyle.ul}>
                       <li className={NavBarStyle.li}>

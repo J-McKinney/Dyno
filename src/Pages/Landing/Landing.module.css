@@ -42,6 +42,11 @@
   box-shadow: 30px 30px 59px #afafaf, -30px -30px 59px #ffffff;
 }
 
+.thirdRow {
+  width: 90%;
+  margin-top: 5%;
+}
+
 .firstCol {
   text-align: center;
   width: 100%;
@@ -81,8 +86,14 @@
 }
 
 .myPic {
+  width: 100%;
+  min-height: auto;
+  border-radius: 50px;
+  box-shadow: 30px 30px 59px #afafaf, -30px -30px 59px #ffffff;
+}
+
+.me {
   height: 300px;
-  /* min-width: auto; */
   width: 350px;
   border-radius: 50px;
   box-shadow: 30px 30px 59px #afafaf, -30px -30px 59px #ffffff;

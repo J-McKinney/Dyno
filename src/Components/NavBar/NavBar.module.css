@@ -17,6 +17,7 @@
 
 .collapsingContainer {
   width: 95%;
+  height: 100%;
   justify-content: center;
   /*Slider NavBar*/
   text-align: center;
@@ -27,12 +28,18 @@
   align-items: center;
   border-radius: 50px;
   background-color: #e4e4e4;
-  box-shadow: 30px 30px 59px #afafaf, -30px -30px 59px #ffffff;
+  box-shadow: 30px 30px 59px #afafaf;
   float: center;
 }
 
 .content {
-  margin: 4% 0 4% 0;
+  /* margin: 4% 0 4% 0; */
+}
+
+.navBarRow {
+  /* height: 160px; */
+  /* margin-bottom: 100px; */
+  /* margin: 4% 0 4% 0; */
   /* margin: 50px 0 50px 0; */
 }
 
