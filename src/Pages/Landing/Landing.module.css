@@ -1,0 +1,25 @@
+.wrapper {
+  background-color: #e4e4e4;
+  text-align: center;
+  width: 100%;
+  min-height: auto;
+  justify-content: center;
+  /* display: flex; */
+  align-items: center;
+  text-align: center;
+  padding-top: 1%;
+}
+
+.container {
+  text-align: center;
+  width: 100%;
+  min-height: auto;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  padding: 50px;
+  margin-top: 50px;
+  border-radius: 50px;
+  background-color: #e4e4e4;
+  box-shadow: 30px 30px 59px #afafaf, -30px -30px 59px #ffffff;
+}

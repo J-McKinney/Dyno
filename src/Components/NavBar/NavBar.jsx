@@ -29,7 +29,7 @@ class NavBar extends Component {
       <>
         <div className={NavBarStyle.wrapper}>
           <Container className={NavBarStyle.container}>
-            <Row className={NavBarStyle.row}>
+            <Row className={NavBarStyle.navBarRow}>
               <Col className={NavBarStyle.col}>
                 <h3 className={NavBarStyle.h3}>Jesse McKinney</h3>
               </Col>
