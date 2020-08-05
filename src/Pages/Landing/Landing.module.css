@@ -78,12 +78,16 @@
   box-shadow: 30px 30px 59px #afafaf, -30px -30px 59px #ffffff;
 }
 
+/*  */
+/*  */
+/*  */
+
 .secondContainer {
   text-align: center;
   width: 100%;
   min-height: auto;
   justify-content: center;
-  display: flex;
+  display: flexbox;
   align-items: center;
   padding: 50px;
   margin-top: 50px;
