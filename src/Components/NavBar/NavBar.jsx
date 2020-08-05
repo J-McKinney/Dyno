@@ -23,16 +23,17 @@ class NavBar extends Component {
       this.setState({ open: false });
     }
   };
+
   render() {
     return (
       <>
         <div className={NavBarStyle.wrapper}>
-          <Container>
-            <Row>
-              <Col>
+          <Container className={NavBarStyle.container}>
+            <Row className={NavBarStyle.row}>
+              <Col className={NavBarStyle.col}>
                 <h3 className={NavBarStyle.h3}>Jesse McKinney</h3>
               </Col>
-              <Col>
+              <Col className={NavBarStyle.col}>
                 <Button
                   className={this.state.changeNavBar ? "change" : ""}
                   id={NavBarStyle.navBarButton}
@@ -52,8 +53,8 @@ class NavBar extends Component {
           <Container className={NavBarStyle.collapsingContainer}>
             <Collapse in={this.state.open}>
               <div id="example-collapse-text" className={NavBarStyle.content}>
-                <Row>
-                  <Col>
+                <Row className={NavBarStyle.row}>
+                  <Col className={NavBarStyle.col}>
                     <ul className={NavBarStyle.ul}>
                       <li className={NavBarStyle.li}>
                         <h5 className={NavBarStyle.h5}>
@@ -85,7 +86,7 @@ class NavBar extends Component {
                       </li>
                     </ul>
                   </Col>
-                  <Col>
+                  <Col className={NavBarStyle.col}>
                     <ul className={NavBarStyle.ul}>
                       <li className={NavBarStyle.li}>
                         <h5 className={NavBarStyle.h5}>
@@ -117,7 +118,7 @@ class NavBar extends Component {
                       </li>
                     </ul>
                   </Col>
-                  <Col>
+                  <Col className={NavBarStyle.col}>
                     <ul className={NavBarStyle.ul}>
                       <li className={NavBarStyle.li}>
                         <h5 className={NavBarStyle.h5}>

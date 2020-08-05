@@ -21,6 +21,21 @@
   justify-content: center;
 }
 
+/* @media (prefers-reduced-motion: no-preference) {
+  .wrapper {
+    animation: tech-image-spin infinite 20s linear;
+    animation: tech-image-spin infinite 12s linear;
+  }
+} */
+/* @keyframes tech-image-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
 .container {
   height: 100vmin;
   width: 100vmin;
@@ -30,7 +45,6 @@
 }
 
 .button {
-  outline: none;
   color: #fff;
   font-weight: 700;
   font-family: "Lato", sans-serif;
