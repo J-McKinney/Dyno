@@ -48,7 +48,10 @@ class Landing extends Component {
               <h1>Animated Projects:</h1>
             </Row>
             <Col className={LandingStyle.thirdCol}>
-              <a href="https://j-mckinney.github.io/ConfettiEffect/">
+              <a
+                href="https://j-mckinney.github.io/ConfettiEffect/"
+                className={LandingStyle.a}
+              >
                 <img
                   className={LandingStyle.myPic}
                   src={Confetti}
@@ -57,7 +60,10 @@ class Landing extends Component {
               </a>
             </Col>
             <Col className={LandingStyle.fourthCol}>
-              <a href="https://j-mckinney.github.io/CrackedFont/">
+              <a
+                href="https://j-mckinney.github.io/CrackedFont/"
+                className={LandingStyle.a}
+              >
                 <img
                   className={LandingStyle.myPic}
                   src={Cracked}
@@ -69,7 +75,10 @@ class Landing extends Component {
           <br />
           <Row className={LandingStyle.fourthRow}>
             <Col className={LandingStyle.fifthCol}>
-              <a href="https://j-mckinney.github.io/InfinityStars/">
+              <a
+                href="https://j-mckinney.github.io/InfinityStars/"
+                className={LandingStyle.a}
+              >
                 <img
                   className={LandingStyle.myPic}
                   src={Stars}
@@ -78,7 +87,10 @@ class Landing extends Component {
               </a>
             </Col>
             <Col className={LandingStyle.sixthCol}>
-              <a href="https://j-mckinney.github.io/InfinityBox/">
+              <a
+                href="https://j-mckinney.github.io/InfinityBox/"
+                className={LandingStyle.a}
+              >
                 <img
                   className={LandingStyle.myPic}
                   src={Box}
@@ -90,7 +102,10 @@ class Landing extends Component {
           <br />
           <Row className={LandingStyle.fifthRow}>
             <Col className={LandingStyle.seventhCol}>
-              <a href="https://j-mckinney.github.io/Realistic-Water-Effect/">
+              <a
+                href="https://j-mckinney.github.io/Realistic-Water-Effect/"
+                className={LandingStyle.a}
+              >
                 <img
                   className={LandingStyle.myPic}
                   src={Water}

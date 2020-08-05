@@ -16,7 +16,7 @@
 }
 
 .collapsingContainer {
-  width: inherit;
+  width: 95%;
   justify-content: center;
   /*Slider NavBar*/
   text-align: center;
@@ -33,6 +33,7 @@
 
 .content {
   margin: 4% 0 4% 0;
+  /* margin: 50px 0 50px 0; */
 }
 
 .ul {
@@ -62,7 +63,6 @@
   font-weight: bold;
   font-style: italic;
   color: #333333;
-  /* background-color: #e42020; */
   background-color: #e4e4e4;
   justify-content: center;
   align-items: center;
