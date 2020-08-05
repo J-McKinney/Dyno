@@ -24,7 +24,11 @@
   box-shadow: 30px 30px 59px #afafaf, -30px -30px 59px #ffffff;
 }
 
-.firstRow {
+.firstRow,
+.secondRow,
+.thirdRow,
+.fourthRow,
+.fifthRow  {
   text-align: center;
   width: 100%;
   min-height: auto;
@@ -57,7 +61,12 @@
   width: inherit;
 }
 
-.secondCol {
+.secondCol,
+.thirdCol,
+.fourthCol,
+.fifthCol,
+.sixthCol,
+.seventhCol {
   text-align: center;
   width: 100%;
   min-height: auto;
@@ -71,16 +80,13 @@
   box-shadow: 30px 30px 59px #afafaf, -30px -30px 59px #ffffff;
 }
 
-.myPic {
-  height: inherit;
-  width: inherit;
+.myPic,
+a {
+  width: 100%;
+  min-height: auto;
   border-radius: 50px;
   box-shadow: 30px 30px 59px #afafaf, -30px -30px 59px #ffffff;
 }
-
-/*  */
-/*  */
-/*  */
 
 .secondContainer {
   text-align: center;
@@ -96,58 +102,3 @@
   box-shadow: 30px 30px 59px #afafaf, -30px -30px 59px #ffffff;
 }
 
-.secondRow {
-  text-align: center;
-  width: 100%;
-  min-height: auto;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  margin: 10px;
-  padding: 10px;
-  border-radius: 50px;
-  background-color: #e4e4e4;
-  box-shadow: 30px 30px 59px #afafaf, -30px -30px 59px #ffffff;
-}
-
-.thirdRow {
-  text-align: center;
-  width: 100%;
-  min-height: auto;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  margin: 10px;
-  padding: 10px;
-  border-radius: 50px;
-  background-color: #e4e4e4;
-  box-shadow: 30px 30px 59px #afafaf, -30px -30px 59px #ffffff;
-}
-
-.thirdCol {
-  text-align: center;
-  width: 100%;
-  min-height: auto;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  margin: 50px;
-  padding: 50px;
-  border-radius: 50px;
-  background-color: #e4e4e4;
-  box-shadow: 30px 30px 59px #afafaf, -30px -30px 59px #ffffff;
-}
-
-.fourthCol {
-  text-align: center;
-  width: 100%;
-  min-height: auto;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  margin: 50px;
-  padding: 50px;
-  border-radius: 50px;
-  background-color: #e4e4e4;
-  box-shadow: 30px 30px 59px #afafaf, -30px -30px 59px #ffffff;
-}

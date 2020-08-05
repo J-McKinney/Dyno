@@ -4,6 +4,11 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import MyPic from "../../images/MeDuh.JPG";
+import Confetti from "../../images/ConfettiEffectPic.PNG";
+import Cracked from "../../images/CrackedFontPic.PNG";
+import Stars from "../../images/InfiniteStarsPic.PNG";
+import Box from "../../images/InfinityBoxPic.PNG";
+import Water from "../../images/RealWaterPic.PNG";
 import LandingStyle from "./Landing.module.css";
 
 class Landing extends Component {
@@ -40,10 +45,59 @@ class Landing extends Component {
         <Container className={LandingStyle.secondContainer}>
           <Row className={LandingStyle.secondRow}>
             <Row className={LandingStyle.thirdRow}>
-              <h1>Projects:</h1>
+              <h1>Animated Projects:</h1>
             </Row>
-            <Col className={LandingStyle.thirdCol}></Col>
-            <Col className={LandingStyle.fourthCol}></Col>
+            <Col className={LandingStyle.thirdCol}>
+              <a href="https://j-mckinney.github.io/ConfettiEffect/">
+                <img
+                  className={LandingStyle.myPic}
+                  src={Confetti}
+                  alt="Confetti Effect"
+                />
+              </a>
+            </Col>
+            <Col className={LandingStyle.fourthCol}>
+              <a href="https://j-mckinney.github.io/CrackedFont/">
+                <img
+                  className={LandingStyle.myPic}
+                  src={Cracked}
+                  alt="Cracked Effect"
+                />
+              </a>
+            </Col>
+          </Row>
+          <br />
+          <Row className={LandingStyle.fourthRow}>
+            <Col className={LandingStyle.fifthCol}>
+              <a href="https://j-mckinney.github.io/InfinityStars/">
+                <img
+                  className={LandingStyle.myPic}
+                  src={Stars}
+                  alt="Infinite Stars Effect"
+                />
+              </a>
+            </Col>
+            <Col className={LandingStyle.sixthCol}>
+              <a href="https://j-mckinney.github.io/InfinityBox/">
+                <img
+                  className={LandingStyle.myPic}
+                  src={Box}
+                  alt="Infinity Box Effect"
+                />
+              </a>
+            </Col>
+          </Row>
+          <br />
+          <Row className={LandingStyle.fifthRow}>
+            <Col className={LandingStyle.seventhCol}>
+              <a href="https://j-mckinney.github.io/Realistic-Water-Effect/">
+                <img
+                  className={LandingStyle.myPic}
+                  src={Water}
+                  alt="Realistic Water Effect"
+                />
+              </a>
+            </Col>
           </Row>
         </Container>
       </div>
