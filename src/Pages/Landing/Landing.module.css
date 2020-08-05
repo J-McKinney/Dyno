@@ -4,10 +4,10 @@
   width: 100%;
   min-height: auto;
   justify-content: center;
-  /* display: flex; */
   align-items: center;
   text-align: center;
   padding-top: 1%;
+  padding-bottom: 8%;
 }
 
 .firstContainer {
@@ -43,13 +43,18 @@
   width: 100%;
   min-height: auto;
   justify-content: center;
-  display: flex;
+  display: flexbox;
   align-items: center;
   margin: 50px;
   padding: 50px;
   border-radius: 50px;
   background-color: #e4e4e4;
   box-shadow: 30px 30px 59px #afafaf, -30px -30px 59px #ffffff;
+}
+
+.firstP {
+  height: inherit;
+  width: inherit;
 }
 
 .secondCol {

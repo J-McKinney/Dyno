@@ -14,10 +14,15 @@ class Landing extends Component {
         <Container className={LandingStyle.firstContainer}>
           <Row className={LandingStyle.firstRow}>
             <Col className={LandingStyle.firstCol}>
-              <p>
-                Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
-                Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem IpsumLorem Ipsum Lorem
-                Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+              <h2 className={LandingStyle.firstH2}>My Work: </h2>
+              <p className={LandingStyle.firstP}>
+                I look forward to each and every project I begin. Whether it is
+                an assignment or a self-motivated project, I take both very
+                seriously. From the starting snippet of code to the final
+                finishing touches of a new app, each moment offers an
+                opportunity for growth and improvement. Learning to design,
+                build, and write code. Has been one of my biggest projects, to
+                this day...
               </p>
             </Col>
             <Col className={LandingStyle.secondCol}>
