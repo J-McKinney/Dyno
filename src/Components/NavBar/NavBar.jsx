@@ -77,13 +77,6 @@ class NavBar extends Component {
                           </a>
                         </h5>
                       </li>
-                      <li className={NavBarStyle.li}>
-                        <h5 className={NavBarStyle.h5}>
-                          <a className={NavBarStyle.a} href="#/action-4">
-                            The World Of React 4
-                          </a>
-                        </h5>
-                      </li>
                     </ul>
                   </Col>
                   <Col className={NavBarStyle.col}>
@@ -91,28 +84,21 @@ class NavBar extends Component {
                       <li className={NavBarStyle.li}>
                         <h5 className={NavBarStyle.h5}>
                           <a className={NavBarStyle.a} href="#/action-5">
-                            The World Of React 5
+                            The World Of React 4
                           </a>
                         </h5>
                       </li>
                       <li className={NavBarStyle.li}>
                         <h5 className={NavBarStyle.h5}>
                           <a className={NavBarStyle.a} href="#/action-6">
-                            The World Of React 6
+                            The World Of React 5
                           </a>
                         </h5>
                       </li>
                       <li className={NavBarStyle.li}>
                         <h5 className={NavBarStyle.h5}>
                           <a className={NavBarStyle.a} href="#/action-7">
-                            The World Of React 7
-                          </a>
-                        </h5>
-                      </li>
-                      <li className={NavBarStyle.li}>
-                        <h5 className={NavBarStyle.h5}>
-                          <a className={NavBarStyle.a} href="#/action-8">
-                            The World Of React 8
+                            The World Of React 6
                           </a>
                         </h5>
                       </li>
@@ -123,28 +109,21 @@ class NavBar extends Component {
                       <li className={NavBarStyle.li}>
                         <h5 className={NavBarStyle.h5}>
                           <a className={NavBarStyle.a} href="#/action-9">
-                            The World Of React 9
+                            The World Of React 7
                           </a>
                         </h5>
                       </li>
                       <li className={NavBarStyle.li}>
                         <h5 className={NavBarStyle.h5}>
                           <a className={NavBarStyle.a} href="#/action-10">
-                            The World Of React 10
+                            The World Of React 8
                           </a>
                         </h5>
                       </li>
                       <li className={NavBarStyle.li}>
                         <h5 className={NavBarStyle.h5}>
                           <a className={NavBarStyle.a} href="#/action-11">
-                            The World Of React 11
-                          </a>
-                        </h5>
-                      </li>
-                      <li className={NavBarStyle.li}>
-                        <h5 className={NavBarStyle.h5}>
-                          <a className={NavBarStyle.a} href="#/action-12">
-                            The World Of React 12
+                            The World Of React 9
                           </a>
                         </h5>
                       </li>

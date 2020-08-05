@@ -4,7 +4,6 @@ import EntryPoint from "./Pages/EntryPoint/EntryPoint";
 import Landing from "./Pages/Landing/Landing";
 import About from "./Pages/About/About";
 import Error404 from "./Pages/Error/Error";
-import Container from "./Components/Container/Container";
 import "./App.css";
 
 class App extends Component {
@@ -17,15 +16,15 @@ class App extends Component {
   render() {
     return (
       <>
-        {/*<Router basename="/">
+        <Router basename="/">
           <Switch>
             <Route exact path="/Dyno" component={EntryPoint} />
             <Route path="/Landing" component={Landing} />
             <Route path="/About" component={About} />
             <Route component={Error404} />
           </Switch>
-        </Router>*/}
-        <Container />
+        </Router>
+
         {/*<div className="App">
           <header className="App-header">
             <img src={logo} className="App-logo" alt="logo" />

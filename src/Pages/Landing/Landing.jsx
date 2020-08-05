@@ -39,7 +39,9 @@ class Landing extends Component {
         {/* SECOND LANDING CONTAINER */}
         <Container className={LandingStyle.secondContainer}>
           <Row className={LandingStyle.secondRow}>
-          <Row className={LandingStyle.thirdRow}><h1>Projects:</h1></Row>
+            <Row className={LandingStyle.thirdRow}>
+              <h1>Projects:</h1>
+            </Row>
             <Col className={LandingStyle.thirdCol}></Col>
             <Col className={LandingStyle.fourthCol}></Col>
           </Row>
