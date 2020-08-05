@@ -10,7 +10,9 @@ class Landing extends Component {
   render() {
     return (
       <div className={LandingStyle.wrapper}>
+        {/* NAVBAR */}
         <NavBar />
+        {/* FIRST LANDING CONTAINER*/}
         <Container className={LandingStyle.firstContainer}>
           <Row className={LandingStyle.firstRow}>
             <Col className={LandingStyle.firstCol}>
@@ -34,6 +36,7 @@ class Landing extends Component {
             </Col>
           </Row>
         </Container>
+        {/* SECOND LANDING CONTAINER */}
       </div>
     );
   }

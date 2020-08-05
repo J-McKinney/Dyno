@@ -28,7 +28,7 @@ class NavBar extends Component {
     return (
       <>
         <div className={NavBarStyle.wrapper}>
-          <Container className={NavBarStyle.container}>
+          <Container className={NavBarStyle.navBarContainer}>
             <Row className={NavBarStyle.navBarRow}>
               <Col className={NavBarStyle.col}>
                 <h3 className={NavBarStyle.h3}>Jesse McKinney</h3>

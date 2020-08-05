@@ -16,7 +16,7 @@
 }
 
 .collapsingContainer {
-  width: 100%;
+  width: inherit;
   justify-content: center;
   /*Slider NavBar*/
   text-align: center;
@@ -32,7 +32,7 @@
 }
 
 .content {
-  margin: 4% 0 0 0;
+  margin: 4% 0 4% 0;
 }
 
 .ul {
@@ -76,7 +76,7 @@
 
 #navBarButton {
   min-height: auto;
-  outline: none;
+  outline: none !important;
   border-color: #333333;
   background-color: #333333;
   float: right;
@@ -86,7 +86,7 @@
 }
 
 #navBarButton:active {
-  outline: none;
+  outline: none !important;
 }
 
 #navBarButton:focus {
