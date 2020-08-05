@@ -114,16 +114,9 @@ class Landing extends Component {
               </a>
             </Col>
             <Col className={LandingStyle.eigthCol}>
-              {/*<a
-                href="https://j-mckinney.github.io/Realistic-Water-Effect/"
-                className={LandingStyle.a}
-              >
-                <img
-                  className={LandingStyle.myPic}
-                  src={Water}
-                  alt="Realistic Water Effect"
-                />
-              </a>*/}
+              <a href="#-action" className={LandingStyle.a}>
+                <img className={LandingStyle.myPic} src={""} alt="" />
+              </a>
             </Col>
           </Row>
         </Container>

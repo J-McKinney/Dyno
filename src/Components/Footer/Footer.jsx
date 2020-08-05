@@ -42,6 +42,10 @@ class Footer extends Component {
                     </a>
                   </h5>
                 </li>
+              </ul>
+            </Col>
+            <Col>
+              <ul>
                 <li className={FooterStyle.li}>
                   <h5 className={FooterStyle.h5}>
                     <a className={FooterStyle.a} href="#/action-4">
@@ -49,10 +53,6 @@ class Footer extends Component {
                     </a>
                   </h5>
                 </li>
-              </ul>
-            </Col>
-            <Col>
-              <ul>
                 <li className={FooterStyle.li}>
                   <h5 className={FooterStyle.h5}>
                     <a className={FooterStyle.a} href="#/action-5">
@@ -67,6 +67,10 @@ class Footer extends Component {
                     </a>
                   </h5>
                 </li>
+              </ul>
+            </Col>
+            <Col>
+              <ul>
                 <li className={FooterStyle.li}>
                   <h5 className={FooterStyle.h5}>
                     <a className={FooterStyle.a} href="#/action-7">
@@ -81,10 +85,6 @@ class Footer extends Component {
                     </a>
                   </h5>
                 </li>
-              </ul>
-            </Col>
-            <Col>
-              <ul>
                 <li className={FooterStyle.li}>
                   <h5 className={FooterStyle.h5}>
                     <a className={FooterStyle.a} href="#/action-9">
@@ -92,27 +92,7 @@ class Footer extends Component {
                     </a>
                   </h5>
                 </li>
-                <li className={FooterStyle.li}>
-                  <h5 className={FooterStyle.h5}>
-                    <a className={FooterStyle.a} href="#/action-10">
-                      The World Of React 10
-                    </a>
-                  </h5>
-                </li>
-                <li className={FooterStyle.li}>
-                  <h5 className={FooterStyle.h5}>
-                    <a className={FooterStyle.a} href="#/action-11">
-                      The World Of React 11
-                    </a>
-                  </h5>
-                </li>
-                <li className={FooterStyle.li}>
-                  <h5 className={FooterStyle.h5}>
-                    <a className={FooterStyle.a} href="#/action-12">
-                      The World Of React 12
-                    </a>
-                  </h5>
-                </li>
+                
               </ul>
             </Col>
           </Row>

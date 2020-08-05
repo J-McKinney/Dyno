@@ -83,21 +83,21 @@ class NavBar extends Component {
                     <ul className={NavBarStyle.ul}>
                       <li className={NavBarStyle.li}>
                         <h5 className={NavBarStyle.h5}>
-                          <a className={NavBarStyle.a} href="#/action-5">
+                          <a className={NavBarStyle.a} href="#/action-4">
                             The World Of React 4
                           </a>
                         </h5>
                       </li>
                       <li className={NavBarStyle.li}>
                         <h5 className={NavBarStyle.h5}>
-                          <a className={NavBarStyle.a} href="#/action-6">
+                          <a className={NavBarStyle.a} href="#/action-5">
                             The World Of React 5
                           </a>
                         </h5>
                       </li>
                       <li className={NavBarStyle.li}>
                         <h5 className={NavBarStyle.h5}>
-                          <a className={NavBarStyle.a} href="#/action-7">
+                          <a className={NavBarStyle.a} href="#/action-6">
                             The World Of React 6
                           </a>
                         </h5>
@@ -108,21 +108,21 @@ class NavBar extends Component {
                     <ul className={NavBarStyle.ul}>
                       <li className={NavBarStyle.li}>
                         <h5 className={NavBarStyle.h5}>
-                          <a className={NavBarStyle.a} href="#/action-9">
+                          <a className={NavBarStyle.a} href="#/action-7">
                             The World Of React 7
                           </a>
                         </h5>
                       </li>
                       <li className={NavBarStyle.li}>
                         <h5 className={NavBarStyle.h5}>
-                          <a className={NavBarStyle.a} href="#/action-10">
+                          <a className={NavBarStyle.a} href="#/action-8">
                             The World Of React 8
                           </a>
                         </h5>
                       </li>
                       <li className={NavBarStyle.li}>
                         <h5 className={NavBarStyle.h5}>
-                          <a className={NavBarStyle.a} href="#/action-11">
+                          <a className={NavBarStyle.a} href="#/action-9">
                             The World Of React 9
                           </a>
                         </h5>
