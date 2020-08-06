@@ -1,3 +1,7 @@
+/* Black */
+/* Black */
+/* Black */
+
 .wrapper {
   background-color: #333333;
   text-align: center;
@@ -7,6 +11,7 @@
   display: flex;
   align-items: center;
   /* 1d1d1d-first 333333-second 555555-third */
+
   /* Parallax Effect */
   background-image: url("../../images/atlanta.jpg"); /* must specify an image or color */
   height: 1000px; /* must specify a height */
@@ -58,9 +63,9 @@
   box-shadow: 30px 30px 82px #1d1d1d, -30px -30px 59px #555555;
 }
 
-/*  */
-/*  */
-/*  */
+/* White */
+/* White */
+/* White */
 
 .openWrapper {
   background-color: #e4e4e4;
@@ -71,6 +76,7 @@
   display: flex;
   align-items: center;
   /* ffffff-first e4e4e4-second afafaf-third */
+
   /* Parallax Effect */
   background-image: url("../../images/forest.jpg"); /* must specify an image or color */
   height: 1000px; /* must specify a height */
@@ -122,9 +128,9 @@
   box-shadow: 30px 30px 59px #afafaf, -30px -30px 59px #ffffff;
 }
 
-/*  */
-/*  */
-/*  */
+/* Dark Greyish */
+/* Dark Greyish */
+/* Dark Greyish */
 
 .closedWrapper {
   background-color: #525252;
@@ -135,6 +141,7 @@
   display: flex;
   align-items: center;
   /* 242424-first 525252-second 666666-third */
+
   /* Parallax Effect */
   background-image: url("../../images/fantasy.jpg"); /* must specify an image or color */
   height: 1000px; /* must specify a height */

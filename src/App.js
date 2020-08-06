@@ -4,6 +4,7 @@ import EntryPoint from "./Pages/EntryPoint/EntryPoint";
 import Landing from "./Pages/Landing/Landing";
 import About from "./Pages/About/About";
 import Error404 from "./Pages/Error/Error";
+// import Container from "./Components/Container/Container";
 import "./App.css";
 
 class App extends Component {
