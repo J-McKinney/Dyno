@@ -1,3 +1,4 @@
+/* Wrapper for the Landing Page */
 .wrapper {
   background-color: #e4e4e4;
   text-align: center;
@@ -10,6 +11,7 @@
   padding-bottom: 8%;
 }
 
+/* First Container that has my pic and work motto */
 .firstContainer {
   text-align: center;
   width: 100%;
@@ -23,6 +25,8 @@
   background-color: #e4e4e4;
   box-shadow: 30px 30px 59px #afafaf, -30px -30px 59px #ffffff;
 }
+
+/* Second Container that has the animated projects in it */
 .secondContainer {
   text-align: center;
   width: 100%;
@@ -37,6 +41,7 @@
   box-shadow: 30px 30px 59px #afafaf, -30px -30px 59px #ffffff;
 }
 
+/* First Row that has my pic and work motto in it */
 .firstRow {
   text-align: center;
   width: 100%;
@@ -50,6 +55,8 @@
   background-color: #e4e4e4;
   box-shadow: 30px 30px 59px #afafaf, -30px -30px 59px #ffffff;
 }
+
+/* Second row that has the confetti effect and cracked font in animated projects */
 .secondRow {
   text-align: center;
   width: 100%;
@@ -63,6 +70,8 @@
   background-color: #e4e4e4;
   box-shadow: 30px 30px 59px #afafaf, -30px -30px 59px #ffffff;
 }
+
+/* Third row that has the animated projects title in it */
 .thirdRow {
   text-align: center;
   width: 100%;
@@ -77,9 +86,13 @@
   box-shadow: 30px 30px 59px #afafaf, -30px -30px 59px #ffffff;
 }
 .thirdRow {
-  width: 90%;
+  /* 95% width for animated projects title with row with shadow 100% without shadow */
+  width: 95%;
+  /* width: 100%; */
   margin-top: 5%;
 }
+
+/* fourth row that has the infinity stars and box in it */
 .fourthRow {
   text-align: center;
   width: 100%;
@@ -93,6 +106,8 @@
   background-color: #e4e4e4;
   box-shadow: 30px 30px 59px #afafaf, -30px -30px 59px #ffffff;
 }
+
+/* fifth row that has a blank and realistic water effect in it */
 .fifthRow {
   text-align: center;
   width: 100%;
