@@ -17,6 +17,8 @@ class App extends Component {
   render() {
     return (
       <>
+        {/*<Container />*/}
+
         <Router basename="/">
           <Switch>
             <Route exact path="/Dyno" component={EntryPoint} />
